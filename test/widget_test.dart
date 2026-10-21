@@ -11,20 +11,12 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:iitu_student_hub/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+  testWidgets('HubApp smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const HubApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
-
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
-
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // Verify key elements appear in the app.
+    expect(find.text('Dashboard'), findsAtLeastNWidgets(1));
+    expect(find.byType(MaterialApp), findsOneWidget);
   });
 }
