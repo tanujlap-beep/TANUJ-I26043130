@@ -2,6 +2,11 @@
 
 An intelligent, cross-platform campus super-app built with **Flutter** & **Firebase**. Designed to streamline university student life, academic tracking, services, and online enrollment.
 
+### 🌐 [Click Here to Open the Live App](https://tanujlap-beep.github.io/TANUJ-I26043130/)
+> **Live Web Deployment**: [https://tanujlap-beep.github.io/TANUJ-I26043130/](https://tanujlap-beep.github.io/TANUJ-I26043130/)  
+> Tap or click the link above to instantly launch the live interactive app directly in your browser without any installation!
+
+![Live Demo](https://img.shields.io/badge/Demo-Live%20Web%20App-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-Ready-FFCA28?logo=firebase&logoColor=black)
